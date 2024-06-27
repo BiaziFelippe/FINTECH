@@ -1,0 +1,381 @@
+:root {
+    --font-orange: #FF6101;
+    --font-light: #fff;
+    --font-dark: #000;
+    --font-green: #4be025;
+    --font-red: #e03125;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-image: url(../image/fundo-de-formas-geometricas-brancas1.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    margin: 45px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    padding: 1.5rem 0;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.optionsHome {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    margin: 1rem 0 0 0;
+}
+
+.options {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid var(--font-orange);
+    border-radius: 10px;
+    background-color: var(--font-orange);
+    font-size: 14px;
+}
+.options i {
+    margin-bottom: 8px;
+}
+
+.config-main {
+    border: 2px solid var(--font-orange);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.config-subMain {
+    width: 80%;
+    height: 60%;
+}
+
+.config-header {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h4, h5 {
+    color: var(--font-orange);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    letter-spacing: 0.2rem;
+}
+
+h5, h6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.65rem;
+}
+
+h6 {
+    letter-spacing: 0.1rem;
+}
+
+.subtitulo {
+    font-size: 2.25rem;
+    text-align: left;
+    color: var(--font-orange);
+}
+
+.subtitulo-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.25rem;
+    color: var(--font-dark);
+    text-align: left;
+}
+
+a {
+    color: var(--font-light);
+}
+
+.btn-columns {
+    gap: 1rem;
+}
+
+
+.btn, .inputEntry, .saveBtn {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    background-color: var(--font-orange);
+    border-color: var(--font-orange);
+    border-radius: 10rem;
+    color: var(--font-light);
+    max-width: 18.75rem;
+}
+
+.btnSaldo {
+    width: 12.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--font-light);
+    border-color: var(--font-light);
+    box-shadow: var(--font-orange);
+}
+
+.inputEntry {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+}
+
+.saveBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: var(--font-dark);
+    font-weight: bolder;
+    background-color: var(--font-light);
+    max-width: 7.5rem;
+    height: 2.5rem;
+    text-decoration: none;
+}
+.box-form-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 18.75rem;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+
+.btn-log {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 0.05rem;
+    font-size: 1.2rem;
+    max-width: 15rem;
+}
+
+.btn-log-third-party-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.3rem 0 0.3rem 0;
+    max-width: 20rem;
+}
+
+.btn-footer {
+    width: 100%;
+    font-size: 10px;
+}
+
+.btn-footer-legenda {
+    width: 100%;
+    font-size: 0.55rem;
+    text-decoration: none;
+    color: var(--font-dark);
+}
+
+.btn-footer-legenda-2 {
+    width: 100%;
+    font-size: 10px;
+    text-decoration: none;
+    color: var(--font-dark);
+}
+
+.box-return-icon {
+    margin-bottom: 1rem;
+}
+
+.fixed-bottom-background {
+    padding: 0.25rem;
+    background-color: var(--font-orange);
+    max-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.return-icon, .home-icon, .fixed-bottom-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--font-orange);
+    border-color: var(--font-orange);
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem; 
+}
+
+.home-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.fixed-bottom-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.fixed-bottom-ajuste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.click {
+    color: var(--font-orange);
+    text-decoration: none;
+}
+
+i {
+    color: var(--font-dark);
+}
+
+input {
+    background-color: var(--font-orange);
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: var(--font-light);
+}
+
+.dateConfig {
+    color: var(--font-light);
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+th {
+    text-decoration: underline;
+    text-decoration-color: var(--font-orange);
+}
+
+td {
+    background-color: var(--font-light);
+    border-color: var(--font-light);
+    border-radius: 1rem;
+    height: 2rem;
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.txt-saldo {
+    font-family: "Poppins", sans-serif;
+    color: var(--font-orange);
+    margin: 0;
+}
+
+.txt-saldo-2 {
+    font-family: "Poppins", sans-serif;
+    color: var(--font-dark);
+}
+
+.orderHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-textHome {
+    width: 70%;
+    height: 4rem;
+    border: 2px solid var(--font-orange);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.text-home {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.movimentacoes {
+    width: 80%;
+    height: 2rem;
+    margin: 0;
+    padding:0;
+    background-color: var(--font-light);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grupoMovimentacoes {
+   gap: 0.75rem;
+}
+
+.text-entrada {
+    color: var(--font-green);
+}
+
+.text-saida {
+    color: var(--font-red);
+}
+
+@media (min-width: 500px) {
+    .subtitulo {
+        width: 512px;
+    }
+    
+    .subtitulo-2 {
+        width: 448px;
+    }
+}
